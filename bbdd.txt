@@ -1,0 +1,5 @@
+CREATE DATABASE bbdd;
+CREATE USER 'carlos'@'localhost' IDENTIFIED BY 'carlos';
+GRANT ALL PRIVILEGES ON bbdd.* TO 'carlos'@'localhost';
+FLUSH PRIVILEGES;
+EXIT;
