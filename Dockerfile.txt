@@ -1,0 +1,9 @@
+FROM ubuntu:latest
+
+RUN apt update -y
+RUN apt upgrade -y
+RUN apt install iputils-ping -y
+RUN apt install net-tools -y
+RUN apt install dnsutils -y
+RUN apt install nano wget curl git -y
+
